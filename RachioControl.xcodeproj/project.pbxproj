@@ -7,23 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F09E98223F2F1D50098AFAB /* DeviceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E98123F2F1D50098AFAB /* DeviceSelector.swift */; };
+		3F3A0DC223F0415A007F6A53 /* DeviceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0DC123F0415A007F6A53 /* DeviceDetailView.swift */; };
+		3F3A0DC623F04F76007F6A53 /* DeviceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0DC523F04F76007F6A53 /* DeviceStatus.swift */; };
+		3F3A0DC823F050CE007F6A53 /* ZoneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0DC723F050CE007F6A53 /* ZoneListView.swift */; };
+		3F3A0DCC23F057AF007F6A53 /* ZoneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0DCB23F057AF007F6A53 /* ZoneRow.swift */; };
+		3F3A0DCE23F05EE8007F6A53 /* DummyValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0DCD23F05EE8007F6A53 /* DummyValues.swift */; };
+		3F3A0DD023F06168007F6A53 /* ZoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A0DCF23F06168007F6A53 /* ZoneFormatter.swift */; };
+		3F3A757123EF4F1C000C6B06 /* RachioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A757023EF4F1C000C6B06 /* RachioAPI.swift */; };
+		3F3A757523EF4F84000C6B06 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A757423EF4F84000C6B06 /* Device.swift */; };
+		3F3A757723EF4FE5000C6B06 /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A757623EF4FE5000C6B06 /* Zone.swift */; };
+		3F3A757923EF50B1000C6B06 /* Nozzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A757823EF50B1000C6B06 /* Nozzle.swift */; };
+		3F3A757B23EF52CF000C6B06 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A757A23EF52CF000C6B06 /* UserData.swift */; };
+		3F5843BC23F1AA7400F383D6 /* Slope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5843BB23F1AA7400F383D6 /* Slope.swift */; };
+		3F5B9EB423F09C1000FA769C /* Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B9EB323F09C1000FA769C /* Crop.swift */; };
+		3F5B9EB823F09C6000FA769C /* Shade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B9EB723F09C6000FA769C /* Shade.swift */; };
+		3F5B9EBA23F09C8300FA769C /* Soil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B9EB923F09C8300FA769C /* Soil.swift */; };
+		3F693EB323F0A01E0032DBAA /* ScheduleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F693EB223F0A01E0032DBAA /* ScheduleRule.swift */; };
+		3F693EB523F0A2C40032DBAA /* ZoneRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F693EB423F0A2C40032DBAA /* ZoneRule.swift */; };
+		3F693EBB23F0A99E0032DBAA /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F693EBA23F0A99E0032DBAA /* RemoteImage.swift */; };
+		3F8A6D4C23F329A300FCD25C /* RachioConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A6D4B23F329A300FCD25C /* RachioConfig.plist */; };
+		3F8A6D4E23F32CB300FCD25C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A6D4D23F32CB300FCD25C /* ActivityIndicator.swift */; };
+		3F8A6D5023F32D1600FCD25C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A6D4F23F32D1600FCD25C /* LoadingView.swift */; };
+		3F8C48F523F1D13F00FFBAAB /* DeviceDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C48F423F1D13F00FFBAAB /* DeviceDataView.swift */; };
+		3F8DD22423F0959A00D1C852 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DD22323F0959A00D1C852 /* Person.swift */; };
 		3F94592923EF4C6300EEBCBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94592823EF4C6300EEBCBD /* AppDelegate.swift */; };
 		3F94592B23EF4C6300EEBCBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94592A23EF4C6300EEBCBD /* SceneDelegate.swift */; };
-		3F94592D23EF4C6300EEBCBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94592C23EF4C6300EEBCBD /* ContentView.swift */; };
 		3F94592F23EF4C6400EEBCBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F94592E23EF4C6400EEBCBD /* Assets.xcassets */; };
 		3F94593223EF4C6400EEBCBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F94593123EF4C6400EEBCBD /* Preview Assets.xcassets */; };
 		3F94593523EF4C6400EEBCBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F94593323EF4C6400EEBCBD /* LaunchScreen.storyboard */; };
+		3FA1A35923F1DCAB0038C57A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1A35823F1DCAB0038C57A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F09E98123F2F1D50098AFAB /* DeviceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelector.swift; sourceTree = "<group>"; };
+		3F3A0DC123F0415A007F6A53 /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
+		3F3A0DC523F04F76007F6A53 /* DeviceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatus.swift; sourceTree = "<group>"; };
+		3F3A0DC723F050CE007F6A53 /* ZoneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneListView.swift; sourceTree = "<group>"; };
+		3F3A0DCB23F057AF007F6A53 /* ZoneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneRow.swift; sourceTree = "<group>"; };
+		3F3A0DCD23F05EE8007F6A53 /* DummyValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyValues.swift; sourceTree = "<group>"; };
+		3F3A0DCF23F06168007F6A53 /* ZoneFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneFormatter.swift; sourceTree = "<group>"; };
+		3F3A757023EF4F1C000C6B06 /* RachioAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RachioAPI.swift; sourceTree = "<group>"; };
+		3F3A757423EF4F84000C6B06 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		3F3A757623EF4FE5000C6B06 /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		3F3A757823EF50B1000C6B06 /* Nozzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nozzle.swift; sourceTree = "<group>"; };
+		3F3A757A23EF52CF000C6B06 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3F45956023F45D5C0004281B /* RachioControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RachioControl.entitlements; sourceTree = "<group>"; };
+		3F5843BB23F1AA7400F383D6 /* Slope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slope.swift; sourceTree = "<group>"; };
+		3F5B9EB323F09C1000FA769C /* Crop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crop.swift; sourceTree = "<group>"; };
+		3F5B9EB723F09C6000FA769C /* Shade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shade.swift; sourceTree = "<group>"; };
+		3F5B9EB923F09C8300FA769C /* Soil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soil.swift; sourceTree = "<group>"; };
+		3F693EB223F0A01E0032DBAA /* ScheduleRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRule.swift; sourceTree = "<group>"; };
+		3F693EB423F0A2C40032DBAA /* ZoneRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneRule.swift; sourceTree = "<group>"; };
+		3F693EBA23F0A99E0032DBAA /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		3F8A6D4B23F329A300FCD25C /* RachioConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RachioConfig.plist; sourceTree = "<group>"; };
+		3F8A6D4D23F32CB300FCD25C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		3F8A6D4F23F32D1600FCD25C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3F8C48F423F1D13F00FFBAAB /* DeviceDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDataView.swift; sourceTree = "<group>"; };
+		3F8DD22323F0959A00D1C852 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		3F94592523EF4C6300EEBCBD /* RachioControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RachioControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F94592823EF4C6300EEBCBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F94592A23EF4C6300EEBCBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F94592C23EF4C6300EEBCBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F94592E23EF4C6400EEBCBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F94593123EF4C6400EEBCBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F94593423EF4C6400EEBCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F94593623EF4C6400EEBCBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA1A35823F1DCAB0038C57A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8DD22223F0958200D1C852 /* Rachio */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A6D4B23F329A300FCD25C /* RachioConfig.plist */,
+				3F3A757023EF4F1C000C6B06 /* RachioAPI.swift */,
+				3F3A757A23EF52CF000C6B06 /* UserData.swift */,
+				3F8DD22323F0959A00D1C852 /* Person.swift */,
+				3F3A757423EF4F84000C6B06 /* Device.swift */,
+				3F3A757623EF4FE5000C6B06 /* Zone.swift */,
+				3F3A757823EF50B1000C6B06 /* Nozzle.swift */,
+				3F5B9EB723F09C6000FA769C /* Shade.swift */,
+				3F5B9EB323F09C1000FA769C /* Crop.swift */,
+				3F5B9EB923F09C8300FA769C /* Soil.swift */,
+				3F3A0DC523F04F76007F6A53 /* DeviceStatus.swift */,
+				3F693EB223F0A01E0032DBAA /* ScheduleRule.swift */,
+				3F693EB423F0A2C40032DBAA /* ZoneRule.swift */,
+				3F5843BB23F1AA7400F383D6 /* Slope.swift */,
+			);
+			path = Rachio;
+			sourceTree = "<group>";
+		};
 		3F94591C23EF4C6300EEBCBD = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +126,25 @@
 		3F94592723EF4C6300EEBCBD /* RachioControl */ = {
 			isa = PBXGroup;
 			children = (
+				3F45956023F45D5C0004281B /* RachioControl.entitlements */,
 				3F94592823EF4C6300EEBCBD /* AppDelegate.swift */,
 				3F94592A23EF4C6300EEBCBD /* SceneDelegate.swift */,
-				3F94592C23EF4C6300EEBCBD /* ContentView.swift */,
 				3F94592E23EF4C6400EEBCBD /* Assets.xcassets */,
-				3F94593323EF4C6400EEBCBD /* LaunchScreen.storyboard */,
 				3F94593623EF4C6400EEBCBD /* Info.plist */,
+				3F94593323EF4C6400EEBCBD /* LaunchScreen.storyboard */,
 				3F94593023EF4C6400EEBCBD /* Preview Content */,
+				3F8DD22223F0958200D1C852 /* Rachio */,
+				3FA1A35823F1DCAB0038C57A /* MainView.swift */,
+				3F8A6D4F23F32D1600FCD25C /* LoadingView.swift */,
+				3F8A6D4D23F32CB300FCD25C /* ActivityIndicator.swift */,
+				3F09E98123F2F1D50098AFAB /* DeviceSelector.swift */,
+				3F3A0DC123F0415A007F6A53 /* DeviceDetailView.swift */,
+				3F8C48F423F1D13F00FFBAAB /* DeviceDataView.swift */,
+				3F3A0DCF23F06168007F6A53 /* ZoneFormatter.swift */,
+				3F3A0DC723F050CE007F6A53 /* ZoneListView.swift */,
+				3F3A0DCB23F057AF007F6A53 /* ZoneRow.swift */,
+				3F693EBA23F0A99E0032DBAA /* RemoteImage.swift */,
+				3F3A0DCD23F05EE8007F6A53 /* DummyValues.swift */,
 			);
 			path = RachioControl;
 			sourceTree = "<group>";
@@ -133,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8A6D4C23F329A300FCD25C /* RachioConfig.plist in Resources */,
 				3F94593523EF4C6400EEBCBD /* LaunchScreen.storyboard in Resources */,
 				3F94593223EF4C6400EEBCBD /* Preview Assets.xcassets in Resources */,
 				3F94592F23EF4C6400EEBCBD /* Assets.xcassets in Resources */,
@@ -146,9 +229,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F09E98223F2F1D50098AFAB /* DeviceSelector.swift in Sources */,
+				3FA1A35923F1DCAB0038C57A /* MainView.swift in Sources */,
+				3F5843BC23F1AA7400F383D6 /* Slope.swift in Sources */,
+				3F3A0DCE23F05EE8007F6A53 /* DummyValues.swift in Sources */,
+				3F8A6D5023F32D1600FCD25C /* LoadingView.swift in Sources */,
+				3F3A0DC823F050CE007F6A53 /* ZoneListView.swift in Sources */,
 				3F94592923EF4C6300EEBCBD /* AppDelegate.swift in Sources */,
+				3F693EB323F0A01E0032DBAA /* ScheduleRule.swift in Sources */,
+				3F693EB523F0A2C40032DBAA /* ZoneRule.swift in Sources */,
+				3F3A757923EF50B1000C6B06 /* Nozzle.swift in Sources */,
+				3F3A0DCC23F057AF007F6A53 /* ZoneRow.swift in Sources */,
+				3F8C48F523F1D13F00FFBAAB /* DeviceDataView.swift in Sources */,
+				3F3A0DC623F04F76007F6A53 /* DeviceStatus.swift in Sources */,
+				3F5B9EB823F09C6000FA769C /* Shade.swift in Sources */,
+				3F3A0DC223F0415A007F6A53 /* DeviceDetailView.swift in Sources */,
+				3F8A6D4E23F32CB300FCD25C /* ActivityIndicator.swift in Sources */,
 				3F94592B23EF4C6300EEBCBD /* SceneDelegate.swift in Sources */,
-				3F94592D23EF4C6300EEBCBD /* ContentView.swift in Sources */,
+				3F3A757B23EF52CF000C6B06 /* UserData.swift in Sources */,
+				3F3A757723EF4FE5000C6B06 /* Zone.swift in Sources */,
+				3F693EBB23F0A99E0032DBAA /* RemoteImage.swift in Sources */,
+				3F5B9EBA23F09C8300FA769C /* Soil.swift in Sources */,
+				3F3A757523EF4F84000C6B06 /* Device.swift in Sources */,
+				3F8DD22423F0959A00D1C852 /* Person.swift in Sources */,
+				3F3A0DD023F06168007F6A53 /* ZoneFormatter.swift in Sources */,
+				3F3A757123EF4F1C000C6B06 /* RachioAPI.swift in Sources */,
+				3F5B9EB423F09C1000FA769C /* Crop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RachioControl/RachioControl.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RachioControl/Preview Content\"";
-				DEVELOPMENT_TEAM = 9YY6HUV252;
+				DEVELOPMENT_TEAM = BHTGBWT93R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RachioControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -295,6 +404,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gregschunk.RachioControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,9 +415,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RachioControl/RachioControl.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RachioControl/Preview Content\"";
-				DEVELOPMENT_TEAM = 9YY6HUV252;
+				DEVELOPMENT_TEAM = BHTGBWT93R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RachioControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +429,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gregschunk.RachioControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
