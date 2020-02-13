@@ -11,9 +11,12 @@ I created this App for the purpose of quickly viewing the configuration of my ir
 
 This was also an opportunity to play with Combine and SwiftUI.
 
+![Screenshot](https://github.com/gschunk/Rachio-Control/blob/master/Screenshot.png)
+
 
 ### Configuration:
 
 1. Set your Developer Team in Xcode in *Signing and Capabilities*.
-2. Find the file *RachioConfig.plist* in the Rachio group. Enter your API key. For information regarding obtaining an API key, look [here](https://rachio.readme.io/docs/authentication)
+2. Find the file *RachioConfig.plist* in the Rachio group. Enter your API key. ![API Key](https://github.com/gschunk/Rachio-Control/blob/master/API%20Key.png)
+For information regarding obtaining an API key, look [here](https://rachio.readme.io/docs/authentication)
 
